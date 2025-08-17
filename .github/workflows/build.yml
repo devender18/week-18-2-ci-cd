@@ -19,7 +19,7 @@ jobs:
               run: npm install
 
             - name: Primsa Generate
-              run: run db:generate
+              run: db:generate
 
             - name: Run Build
               run: npm run build
